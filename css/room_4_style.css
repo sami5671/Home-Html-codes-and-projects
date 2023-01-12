@@ -1,0 +1,536 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: rgba(8, 8, 8, 0.2);
+  position: sticky;
+  top: 0;
+
+}
+
+header .booking {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: #0e92ca;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 10px;
+
+}
+
+header .booking span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+header .booking span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+header .booking:hover span {
+  padding-right: 55px;
+}
+
+header .booking:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button {
+  border: 8px;
+  color: black;
+  padding: 5px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: -20px;
+  transition-duration: .8s;
+  cursor: pointer;
+
+}
+
+.button1 {
+  border-radius: 35px;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2 {
+  border-radius: 35px;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  border-radius: 35px;
+}
+
+.button3:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button4 {
+  border-radius: 35px;
+}
+
+.button4:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button5 {
+  border-radius: 35px;
+}
+
+.button5:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button6 {
+  border-radius: 35px;
+}
+
+.button6:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+section {
+  padding: 10px 30px;
+}
+
+section .logo-hotel {
+  padding-left: 500px;
+  margin-top: -13px;
+  cursor: pointer;
+}
+
+section .header p {
+  padding-left: 460px;
+  font-family: sans-serif;
+  color: rgb(242, 237, 237);
+}
+
+section .president {
+  color: rgb(255, 255, 255);
+  font-size: 33px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+
+section .photo {
+  font-size: 20px;
+  margin-left: 22px;
+  margin-top: 1px;
+  letter-spacing: 1px;
+  color: rgb(254, 253, 253);
+}
+
+body {
+  background: url(../Deluxebed2.jfif) no-repeat center fixed;
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+section .slider {
+  width: 65%;
+  height: 410px;
+  position: absolute;
+  top: 45%;
+  left: 4%;
+  background-image: url(../deluxbalcony.jpg);
+  background-size: 100% 100%;
+  box-shadow: 5px 5px 50px rgb(239, 239, 239);
+  animation: slider 15s infinite linear;
+  border-radius: 20px;
+
+}
+
+@keyframes slider {
+  0% {
+    background-image: url(../deluxbed.jpg);
+  }
+
+  25% {
+    background-image: url(../Deluxebed2.jfif);
+  }
+
+  50% {
+    background-image: url(../deluxbalcony.jpg);
+  }
+
+  75% {
+    background-image: url(../deluxbath.jpg);
+  }
+
+
+}
+
+section .room_info {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: inherit;
+  color: rgb(5, 0, 0);
+  padding: 0px 10px;
+  margin-left: 960px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 2px 4px 3px rgb(237, 232, 232);
+}
+
+section .room_info h3 {
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+
+}
+
+section .room_info p {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+section .room_info ul {
+  font-size: 15px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  margin-top: 15px;
+  margin-left: 10px;
+
+}
+
+section .foot p {
+  color: white;
+  font-size: 19px;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.book {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 740px;
+}
+
+.book_button {
+  padding: 0px 12px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+  background-color: rgb(240, 230, 230);
+  border-radius: 20px;
+}
+
+.book_button:hover {
+  color: rgb(255, 254, 254);
+  background-color: rgb(90, 172, 254);
+  transition: all 1s ease;
+  border-radius: 20px;
+}
+
+.background-color {
+  background-color: rgba(0, 0, 0, 0.075);
+  border-radius: 30px;
+}
+
+.common_amenities {
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  box-shadow: 5px 5px 30px rgb(215, 211, 211);
+}
+
+.common_amenities h2 {
+  font-size: 40px;
+}
+
+.common_facilites {
+  margin-top: 20px;
+
+}
+
+.spa {
+  margin-top: -64px;
+  margin-left: 90px;
+}
+
+.gym {
+  margin-top: -64px;
+  margin-left: 180px;
+}
+
+.pool {
+  margin-top: -64px;
+  margin-left: 340px;
+}
+
+.meal {
+  margin-top: -66px;
+  margin-left: 440px;
+}
+
+.hair {
+  margin-top: -66px;
+  margin-left: 670px;
+}
+
+.water {
+  margin-top: -66px;
+  margin-left: 780px;
+}
+
+.tea {
+  margin-top: -65px;
+  margin-left: 940px;
+}
+
+.service {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+section .all_acco {
+  margin-top: 80px;
+  margin-left: 50px;
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+section .all_acco ul {
+  margin-left: 15px;
+  font-style: italic;
+}
+
+.acco p {
+  font-size: 34px;
+}
+
+.acco h4 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.acco ul {
+  margin-left: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.bed h4 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.bed ul {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.view h4 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.view ul {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.floor h4 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.floor ul {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.bath h4 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.bath ul {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.size h4 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.size ul {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+section .all-service {
+  margin-top: -865px;
+  padding: 0px 150px;
+  margin-left: 560px;
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+
+}
+
+section .all-service ul {
+  margin-left: 15px;
+  font-style: italic;
+}
+
+section .service p {
+  font-size: 33px;
+
+}
+
+section .service h4 {
+  font-size: 20px;
+  margin-top: 35px;
+
+}
+
+section .service ul {
+  font-size: 15px;
+  margin-top: 15px;
+
+}
+
+section .roomf h4 {
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+section .roomf ul {
+  font-size: 15px;
+  margin-top: 17px;
+}
+
+section .entertainment h4 {
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+section .entertainment ul {
+  font-size: 15px;
+  margin-top: 17px;
+}
+
+section .internet h4 {
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+section .internet ul {
+  font-size: 15px;
+  margin-top: 17px;
+  margin-top: 30px;
+}
+
+
+footer {
+  position: relative;
+  width: 100%;
+  background: rgb(57, 62, 64);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+footer .icon,
+footer .navigation-footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+footer .icon li,
+footer .navigation-footer li {
+  list-style: none;
+}
+
+footer .icon li a {
+  font-size: 2em;
+  color: rgb(253, 253, 253);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .icon li a:hover {
+  transform: translate(-13px);
+}
+
+footer .navigation-footer li a {
+  font-size: 1.2em;
+  color: rgb(231, 225, 225);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0.75;
+}
+
+footer p {
+  color: white;
+  margin-top: 10px;
+}
+
+footer .wave {
+  position: absolute;
+  margin-top: 90px;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  background: url(../wave.png);
+  background-size: 1000px 100px;
+}

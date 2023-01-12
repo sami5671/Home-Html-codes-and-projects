@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: rgba(8, 8, 8, 0.2);
+  position: sticky;
+  top: 0;
+}
+
+header .booking {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: #0e92ca;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 10px;
+
+}
+
+header .booking span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+header .booking span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+header .booking:hover span {
+  padding-right: 55px;
+}
+
+header .booking:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button {
+  border: 8px;
+  color: black;
+  padding: 5px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: -20px;
+  transition-duration: .8s;
+  cursor: pointer;
+
+}
+
+.button1 {
+  border-radius: 35px;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2 {
+  border-radius: 35px;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  border-radius: 35px;
+}
+
+.button3:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button4 {
+  border-radius: 35px;
+}
+
+.button4:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button5 {
+  border-radius: 35px;
+}
+
+.button5:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button6 {
+  border-radius: 35px;
+}
+
+.button6:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+body {
+  background: url(../rooms\ and\ suits.jpg) no-repeat center fixed;
+  background-size: cover;
+  background-position: center;
+
+}
+
+section {
+  padding: 15px 50px;
+}
+
+section .text b {
+  color: white;
+  font-family: sans-serif;
+
+}
+
+section .text p {
+  color: white;
+  font-size: 40px;
+
+}
+
+section .overview {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 27px;
+  text-align: inherit;
+  color: white;
+  padding: 0px 50px;
+  margin-left: 500px;
+  margin-top: -145px;
+  border: 0px;
+  background-color: rgba(3, 4, 0, 0.075);
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 350px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 30px;
+
+
+}
+
+.card-image {
+
+  height: 160px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.card-1 {
+  background-image: url(../presedential\ suit.jpg);
+}
+
+.card-2 {
+  background-image: url(../royalsuitbed.jpg);
+}
+
+.card-3 {
+  background-image: url(../executive\ room.jpg);
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 350px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 30px;
+
+
+
+}
+
+.card-image {
+
+  height: 160px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-4 {
+  background-image: url(../dulex\ room.jpg);
+}
+
+.card-5 {
+  background-image: url(../twin\ room.jpg);
+}
+
+.card-6 {
+  background-image: url(../couple\ room.jpg);
+}
+
+.card h2 {
+  padding: 15px;
+  color: rgb(82, 101, 18);
+}
+
+.card p {
+  padding: 15px;
+  color: black;
+}
+
+.card a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  font-family: sans-serif;
+
+}
+
+.card a:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transform: scale3d(1.03);
+  transition: all 1s ease;
+}
+
+.card:hover {
+  background-color: rgb(124, 121, 121);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: rgb(47, 60, 66);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+footer .icon,
+footer .navigation-footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+footer .icon li,
+footer .navigation-footer li {
+  list-style: none;
+}
+
+footer .icon li a {
+  font-size: 2em;
+  color: rgb(253, 253, 253);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .icon li a:hover {
+  transform: translate(-13px);
+}
+
+footer .navigation-footer li a {
+  font-size: 1.2em;
+  color: rgb(231, 225, 225);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0.75;
+}
+
+footer p {
+  color: white;
+  margin-top: 10px;
+}
+
+footer .wave {
+  position: absolute;
+  margin-top: 90px;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  background: url(../wave.png);
+  background-size: 1000px 100px;
+}

@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background: url(../overview_readmore.jpg) no-repeat center fixed;
+  background-size: cover;
+  background-position: center;
+
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: rgba(8, 8, 8, 0.2);
+  position: sticky;
+  top: 0;
+}
+
+header .booking {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: #0e92ca;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 10px;
+
+}
+
+header .booking span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+header .booking span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+header .booking:hover span {
+  padding-right: 55px;
+}
+
+header .booking:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button {
+  border: 8px;
+  color: black;
+  padding: 5px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: -20px;
+  transition-duration: .8s;
+  cursor: pointer;
+
+}
+
+.button1 {
+  border-radius: 35px;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2 {
+  border-radius: 35px;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  border-radius: 35px;
+}
+
+.button3:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button4 {
+  border-radius: 35px;
+}
+
+.button4:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button5 {
+  border-radius: 35px;
+}
+
+.button5:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button6 {
+  border-radius: 35px;
+}
+
+.button6:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+
+
+section {
+  padding: 10px 30px;
+}
+
+section .logo-hotel {
+  padding-left: 500px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+section .header p {
+  padding-left: 415px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+section .hotel {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(227, 144, 11);
+  font-size: 35px;
+  margin-top: 90px;
+  font-style: italic;
+  color: white;
+
+}
+
+section .details {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+
+}
+
+section .details a {
+  color: rgb(13, 12, 12);
+  text-decoration: none;
+  color: white;
+
+}
+
+section .details a:hover {
+  color: rgb(18, 128, 117);
+}
+
+section .heading {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(31, 28, 28);
+  padding: 0px 400px;
+  top: 0;
+  bottom: 0;
+  margin-top: -340px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: white;
+
+}
+
+section .img-slideshow {
+  padding: 0px 400px;
+  top: 0;
+  bottom: 0;
+  margin-top: 20px;
+
+}
+
+
+section .room {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 27px;
+  text-align: center;
+
+  margin-right: 70px;
+  letter-spacing: 1px;
+  color: white;
+
+}
+
+section .para p {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: inherit;
+  margin-top: 25px;
+  padding: 0px 375px;
+
+  letter-spacing: 1px;
+  color: white;
+
+}
+
+section .para ul {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: inherit;
+  margin-top: 20px;
+  padding: 0px 400px;
+
+  letter-spacing: 1px;
+  color: white;
+
+}
+
+section .level h3 {
+  font-family: sans-serif;
+  font-size: 27px;
+  text-align: inherit;
+  margin-top: 20px;
+  padding: 20px 370px;
+
+  letter-spacing: 1px;
+  color: white;
+
+}
+
+section .level p {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: inherit;
+  margin-top: 10px;
+  padding: 0px 370px;
+
+  letter-spacing: 1px;
+
+  color: white;
+}
+
+section .level ul {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+
+  letter-spacing: 1px;
+  color: white;
+}
+
+section .Property h3 {
+  font-family: sans-serif;
+  font-size: 27px;
+  text-align: inherit;
+  margin-top: 60px;
+  padding: 0px 370px;
+
+  letter-spacing: 1px;
+  color: white;
+}
+
+section .Property h5 {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+
+  letter-spacing: 1px;
+  color: white;
+}
+
+section .Property p {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: inherit;
+  margin-top: 10px;
+  padding: 0px 370px;
+
+  letter-spacing: 1px;
+  color: white;
+}
+
+section .Property ul {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+
+  letter-spacing: 1px;
+  color: white;
+}
+
+section .business h3 {
+  font-family: sans-serif;
+  font-size: 27px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+
+  letter-spacing: 1px;
+  color: white;
+}
+
+section .business ul {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+
+  letter-spacing: 1px;
+  color: white;
+}
+
+section .policies h3 {
+  font-family: sans-serif;
+  font-size: 27px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+
+  letter-spacing: 1px;
+  color: white;
+}
+
+section .policies ul {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+section .pet h3 {
+  font-family: sans-serif;
+  font-size: 27px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+section .pet p {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+section .pet ul {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+section .access h3 {
+  font-family: sans-serif;
+  font-size: 27px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+section .access ul {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: inherit;
+  margin-top: 30px;
+  padding: 0px 370px;
+  color: white;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+}
+
+
+footer {
+  position: relative;
+  width: 100%;
+  background: rgb(57, 62, 64);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+footer .icon,
+footer .navigation-footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+footer .icon li,
+footer .navigation-footer li {
+  list-style: none;
+}
+
+footer .icon li a {
+  font-size: 2em;
+  color: rgb(253, 253, 253);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .icon li a:hover {
+  transform: translate(-13px);
+}
+
+footer .navigation-footer li a {
+  font-size: 1.2em;
+  color: rgb(231, 225, 225);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0.75;
+}
+
+footer p {
+  color: white;
+  margin-top: 10px;
+}
+
+footer .wave {
+  position: absolute;
+  margin-top: 90px;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  background: url(../wave.png);
+  background-size: 1000px 100px;
+}

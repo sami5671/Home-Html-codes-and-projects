@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: rgba(8, 8, 8, 0.2);
+  position: sticky;
+  top: 0;
+}
+
+
+
+header .booking {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: #0e92ca;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 10px;
+
+}
+
+header .booking span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+header .booking span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+header .booking:hover span {
+  padding-right: 55px;
+}
+
+header .booking:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button {
+  border: 8px;
+  color: black;
+  padding: 5px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: -20px;
+  transition-duration: .8s;
+  cursor: pointer;
+
+}
+
+.button1 {
+  border-radius: 35px;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2 {
+  border-radius: 35px;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  border-radius: 35px;
+}
+
+.button3:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button4 {
+  border-radius: 35px;
+}
+
+.button4:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button5 {
+  border-radius: 35px;
+}
+
+.button5:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button6 {
+  border-radius: 35px;
+}
+
+.button6:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+body {
+  background: url(../maind3.jpg) no-repeat center fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  padding: 10px 30px;
+}
+
+section .text {
+  font-size: 14px;
+  margin-top: 30px;
+
+}
+
+section .text2 {
+  font-size: 45px;
+  color: white;
+  letter-spacing: 1px;
+
+}
+
+section .overview {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align: inherit;
+  color: white;
+  padding: 0px 50px;
+  margin-left: 500px;
+  margin-top: -120px;
+  border: 0px;
+  background-color: rgba(75, 76, 72, 0.075);
+
+}
+
+section .logo-hotel {
+  padding-left: 500px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+section .img-slideshow {
+  padding: 0px 0px;
+  top: 0;
+  bottom: 0;
+  margin-top: 50px;
+  box-shadow: 7px 5px 10px 10px rgb(239, 239, 239);
+}
+
+section .explore {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 45px;
+  font-style: italic;
+}
+
+.image1 {
+  margin-top: 50px;
+}
+
+.image-1 {
+  padding: 0px 100px;
+  margin-left: 500px;
+  margin-right: 0px;
+  margin-top: -370px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: justify;
+  color: white;
+}
+
+.image-1 h3 {
+  font-size: 36px;
+  color: white;
+}
+
+.image2 {
+  margin-top: 100px;
+}
+
+.image-2 h3 {
+  font-size: 36px;
+  color: white;
+}
+
+.image-2 {
+  padding: 0px 100px;
+  margin-left: 500px;
+  margin-right: 0px;
+  margin-top: -360px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: justify;
+  color: white;
+}
+
+.image3 {
+  margin-top: 200px;
+}
+
+.image-3 h3 {
+  font-size: 36px;
+  color: white;
+  text-align: inherit;
+}
+
+.image-3 {
+  padding: 0px 100px;
+  margin-left: 500px;
+  margin-right: 0px;
+  margin-top: -360px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: inherit;
+  color: white;
+
+}
+
+.image4 {
+  margin-top: 100px;
+}
+
+.image-4 h3 {
+  font-size: 36px;
+  color: white;
+}
+
+.image-4 {
+  padding: 0px 100px;
+  margin-left: 500px;
+  margin-right: 0px;
+  margin-top: -360px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: inherit;
+  color: white;
+}
+
+.image5 {
+  margin-top: 300px;
+
+}
+
+.image-5 h3 {
+  font-size: 36px;
+  color: white;
+}
+
+.image-5 {
+  padding: 0px 100px;
+  margin-left: 500px;
+  margin-right: 0px;
+  margin-top: -360px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: inherit;
+  color: white;
+  margin-bottom: 200px;
+
+
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: rgb(57, 62, 64);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+footer .icon,
+footer .navigation-footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+footer .icon li,
+footer .navigation-footer li {
+  list-style: none;
+}
+
+footer .icon li a {
+  font-size: 2em;
+  color: rgb(253, 253, 253);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .icon li a:hover {
+  transform: translate(-13px);
+}
+
+footer .navigation-footer li a {
+  font-size: 1.2em;
+  color: rgb(231, 225, 225);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0.75;
+}
+
+footer p {
+  color: white;
+  margin-top: 10px;
+}
+
+footer .wave {
+  position: absolute;
+  margin-top: 90px;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  background: url(../wave.png);
+  background-size: 1000px 100px;
+}
