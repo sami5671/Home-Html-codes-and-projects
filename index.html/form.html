@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style1.css">
+
+    <title>Mermaid Pearl Resort and Spa</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <p>Mermaid Pearl Resort and Spa</p>
+        </div>
+
+        <a href="home.html"><button class="button button1">HOME</button></a>
+        <a href="main_room.html"><button class="button button2">ROOMS & SUITES</button></a>
+        <a href="dining.html"><button class="button button3">DINING</button></a>
+        <a href="gym.html"><button class="button button4">GYM</button></a>
+        <a href="spa.html"><button class="button button5">SPA</button></a>
+        <a href="meeting.html"><button class="button button6">MEETING</button></a>
+
+
+    </header>
+
+
+    <div class="marquee">
+        <marquee behavior="" direction="" scrollamount="13">PLEASE FILL UP THE FROM FOR ONLINE RESERVATION (OUR SERVICE
+            IS OPEN 24/7)</marquee>
+    </div>
+
+
+    <section>
+
+        <div class="reservation">
+            <form id="reservation" method="post" action="">
+                <h1>Fill up the form to get booked in our hotel</h1><br>
+
+                <label for="fname">Enter your first name: </label>
+                <input type="text" placeholder="enter your first name"><br><br>
+
+                <label for="lname">Enter your last name: </label>
+                <input type="text" placeholder="enter your last name"><br><br>
+
+                <label for="number">Enter your Mobile number</label>
+                <input type="number" placeholder="enter your phone number"><br><br>
+
+                <label for="email">Enter your Email</label>
+                <input type="email" placeholder="enter your emial"><br><br>
+
+                <label for="email">Enter the check in date</label>
+                <input type="date">
+
+                <label for="email"> Enter the check out date</label>
+                <input type="date"><br><br>
+
+                Are you citizen or a foreigner?<br>
+                <input type="radio" id="" name="fav_language" value="Citizen">
+                <label for="name">Citizen</label><br>
+                <input type="radio" id="" name="fav_language" value="Foreigner">
+                <label for="name">Foreigner</label><br><br>
+
+
+                Please select Which type of room you wanna stay---?<br>
+                <select>
+                    <option value="Select one" selected>Select One</option>
+                    <option value="Dhaka">THE PRESIDENTIAL SUITE-- ($520)</option>
+                    <option style="color: rgb(232, 15, 73);" value="Barisal">TEH ROYAL SUITE-- ($459)</option>
+                    <option value="Cox's Bazar">THE EXECUTIVE SUITE-- ($335)</option>
+                    <option value="Cox's Bazar">DELUXE ROOM-- ($235)</option>
+                    <option value="Cox's Bazar">TWIN ROOM-- ($345)</option>
+                    <option value="Cox's Bazar">COUPLE ROOM-- ($470)</option>
+                </select>
+                <br><br>
+                How many rooms you wanna book--?<br>
+                <input type="number" placeholder="enter number of rooms">
+                <label for="number"></label>
+
+                <br><br>
+                <h3> Will you choose any type of dining facilites--?</h3><br>
+                <input type="checkbox" id="type1" name="type1" value="toca">
+                <label for="type1">TOCA</label><br>
+                <input type="checkbox" id="type2" name="type2" value="bar">
+                <label for="type2">MERMAID BAR</label><br>
+                <input type="checkbox" id="type3" name="type3" value="terrace">
+                <label for="type3">EPOCH BAR & KITCHEN TERRACE</label><br>
+
+                <input type="checkbox" id="type1" name="type1" value="toca">
+                <label for="type4">IN-ROOM DINING</label><br>
+                <input type="checkbox" id="type2" name="type2" value="bar">
+                <label for="type5">TRADITIONAL BRITISH AFTERNOON TEA</label><br><br>
+
+
+                <h3>Will you choose any GYM facilites--?</h3><br>
+                <input type="radio" id="" name="fav_language" value="Citizen">
+                <label for="name">ZUMBA DANCE</label><br>
+                <input type="radio" id="" name="fav_language" value="Foreigner">
+                <label for="name">YOGA</label><br>
+                <input type="radio" id="" name="fav_language" value="Citizen">
+                <label for="name">WEIGHT TRAINING</label><br>
+                <input type="radio" id="" name="fav_language" value="Foreigner">
+                <label for="name">CARDIO TRAINING</label><br>
+                <input type="radio" id="" name="fav_language" value="Citizen">
+                <label for="name"> FLEXIBILITY TRAINING</label><br><br>
+
+
+                <h3>Will you choose any SPA facilites--?</h3><br>
+                <input type="radio" id="" name="fav_language" value="Citizen">
+                <label for="name">SPA TREATMENTS & NAIL SALON</label><br>
+                <input type="radio" id="" name="fav_language" value="Foreigner">
+                <label for="name">MY BLEND FACIAL
+                </label><br>
+                <input type="radio" id="" name="fav_language" value="Citizen">
+                <label for="name">FLOATING ON A CLOUD
+                </label><br>
+                <input type="radio" id="" name="fav_language" value="Foreigner">
+                <label for="name">SIGNATURE CHAMPAGNE MANICURE
+                </label><br>
+                <input type="radio" id="" name="fav_language" value="Citizen">
+                <label for="name"> Massage Spa Treatments
+                </label><br><br>
+                <label style="color: white;">If you want to have extra facilities please write down here: </label>
+                <textarea style="color: rgb(187, 87, 44);" cols="40" rows="5"></textarea><br><br>
+
+
+
+
+            </form>
+        </div>
+
+        <!--------THIS SECTION IS FOR  POPUP MESSAGE-------------->
+        <div class="container">
+            <div class="mainbutton">
+                <button type="submit" class="btn" onclick="openPopup()">SUBMIT</button>
+            </div>
+            <div class="popup" id="popup">
+                <img src="thanks effect.png" alt="">
+                <h2>THANK YOU</h2>
+                <P>Your details has been successfully submitted. THANKS!</P>
+                <button type="button" onclick="closePopup()">OK</button>
+            </div>
+        </div>
+
+
+        <script>
+            let popup = document.getElementById("popup");
+
+            function openPopup() {
+                popup.classList.add("open-popup");
+            }
+
+            function closePopup() {
+                popup.classList.remove("open-popup");
+            }
+        </script>
+    </section>
+    <!--------THIS SECTION IS FOR  POPUP MESSAGE-------------->
+
+
+
+    <footer>
+        <div class="wave">
+        </div>
+        <ul class="icon">
+            <li><a href="">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+            <li><a href="">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a></li>
+            <li><a href="">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a></li>
+            <li><a href="">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+            <li><a href="">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a></li>
+            <li><a href="">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a></li>
+
+        </ul>
+
+        <ul class="navigation-footer">
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>about us</li>
+            <li><a href=""></a>Direction</li>
+            <li><a href=""></a>Team</li>
+            <li><a href=""></a>Owner</li>
+        </ul>
+        <p>MERMAID® is a Registered Service Mark of The PEARL Hotel, Limited, and is used by The Pearl resort and Hotel
+            Company under License.
+
+            © 2022 The Mermaid Pearl Hotel and Resort Company, L.L.C. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
